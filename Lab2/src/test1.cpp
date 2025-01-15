@@ -9,6 +9,7 @@ int main(int argc, char** argv) {
     for (int i = 0; i < argc; i++) {
         out << std::string_view(argv[i]) << ", ";
     }
+
     out << std::endl;
     out.close();
 
